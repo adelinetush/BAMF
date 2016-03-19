@@ -479,6 +479,7 @@ class SecondsCountdownTimer {   //----------------------------------------------
     //  running = true;
     //}
 
+    fill(#000000);
     text(newCounter, x, y);
   }
 }
@@ -555,7 +556,7 @@ class MinutesCountdownTimer {   //----------------------------------------------
     if (newCounter < 0) {
       running = false;
     }
-    color(#111111);
+    fill(#000000);
     text(newCounter, x, y);
     
      
